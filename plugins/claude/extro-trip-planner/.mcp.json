@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "extro": {
+      "type": "http",
+      "url": "https://extroapp.com/mcp"
+    }
+  }
+}

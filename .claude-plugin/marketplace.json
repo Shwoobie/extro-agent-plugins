@@ -1,0 +1,14 @@
+{
+  "name": "extro",
+  "owner": {
+    "name": "Extro",
+    "url": "https://extroapp.com"
+  },
+  "plugins": [
+    {
+      "name": "extro-trip-planner",
+      "source": "./plugins/claude/extro-trip-planner",
+      "description": "Verified events and places in one shareable trip plan."
+    }
+  ]
+}

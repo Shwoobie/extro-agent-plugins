@@ -1,0 +1,41 @@
+{
+  "name": "extro-trip-planner",
+  "version": "0.1.1",
+  "description": "Turn verified events and places into a visual, shareable trip plan. No Extro login required for guest plans.",
+  "author": {
+    "name": "Extro",
+    "url": "https://extroapp.com"
+  },
+  "homepage": "https://extroapp.com/developers/mcp",
+  "keywords": [
+    "travel",
+    "itinerary",
+    "events",
+    "places",
+    "trip-planning"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Extro Trip Planner",
+    "shortDescription": "Create a trip plan you can open and share.",
+    "longDescription": "Research verified recommendations and organize events, restaurants, bars, and attractions into one visual Extro plan. Guest plans need no Extro account and can be saved by signing in within seven days.",
+    "developerName": "Extro",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://extroapp.com",
+    "privacyPolicyURL": "https://extroapp.com/privacy",
+    "termsOfServiceURL": "https://extroapp.com/terms",
+    "defaultPrompt": [
+      "Plan a food and art weekend in New York.",
+      "Turn my recommendations into a shareable trip plan.",
+      "Plan a relaxed date night with dinner and music."
+    ],
+    "brandColor": "#FF2B80",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  },
+  "license": "MIT"
+}

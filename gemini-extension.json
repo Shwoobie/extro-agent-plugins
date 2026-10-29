@@ -1,0 +1,12 @@
+{
+  "name": "extro-trip-planner",
+  "version": "1.1.0",
+  "description": "Create useful, shareable Extro trip plans from verified events and places.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "extro": {
+      "httpUrl": "https://extroapp.com/mcp",
+      "timeout": 30000
+    }
+  }
+}

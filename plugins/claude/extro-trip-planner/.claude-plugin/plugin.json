@@ -1,0 +1,21 @@
+{
+  "name": "extro-trip-planner",
+  "version": "0.1.1",
+  "description": "Turn verified events and places into a visual, shareable trip plan. No Extro login required for guest plans.",
+  "author": {
+    "name": "Extro",
+    "url": "https://extroapp.com"
+  },
+  "homepage": "https://extroapp.com/developers/mcp",
+  "keywords": [
+    "travel",
+    "itinerary",
+    "events",
+    "places",
+    "trip-planning"
+  ],
+  "skills": "./skills/",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://extroapp.com/privacy",
+  "icon": "./assets/icon.png"
+}
