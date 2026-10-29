@@ -1,0 +1,234 @@
+{
+  "requestId": "live-validation-20261029-nyc-01",
+  "clientSessionId": "extro-live-review-20261029-f1b7777983aa4840ba97d829792e73ab",
+  "plan": {
+    "title": "New York: three days of art, food & skyline views",
+    "description": "A proposed November 6\u20138 itinerary with ten scheduled sightseeing stops and ten restaurant/bar options. Choose meals to fit your route and budget. Times are suggested; admission and reservations must be confirmed separately. Created to validate the guest planning experience.",
+    "listType": "trip",
+    "city": "New York",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-08"
+  },
+  "recommendations": [
+    {
+      "type": "event",
+      "name": "Planned visit: Grand Central Terminal",
+      "description": "Look beyond the main concourse: the celestial ceiling, whispering gallery and layered transit history reward a slower visit. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "Grand Central Terminal",
+      "startDateTime": "2026-11-06T10:00:00-05:00",
+      "endDateTime": "2026-11-06T11:00:00-05:00",
+      "ticketUrl": "https://www.grandcentralterminal.com/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Image-Grand_central_Station_Outside_Night_2.jpg/3840px-Image-Grand_central_Station_Outside_Night_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "whyRecommended": "Day 1: architecture and history. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: New York Public Library and Bryant Park",
+      "description": "The landmark library and its exhibitions pair naturally with the park, making a calm Midtown break between larger sights. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "New York Public Library and Bryant Park",
+      "startDateTime": "2026-11-06T11:30:00-05:00",
+      "endDateTime": "2026-11-06T12:30:00-05:00",
+      "ticketUrl": "https://www.nypl.org/locations/schwarzman",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/New_York_Public_Library_-_Main_Branch_%2851396225599%29.jpg/3840px-New_York_Public_Library_-_Main_Branch_%2851396225599%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "whyRecommended": "Day 1: architecture and a quiet pause. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: Museum of Modern Art",
+      "description": "A concentrated route through modern and contemporary art works well when paired with Midtown architecture and nearby restaurants. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "Museum of Modern Art",
+      "startDateTime": "2026-11-06T14:00:00-05:00",
+      "endDateTime": "2026-11-06T16:00:00-05:00",
+      "ticketUrl": "https://www.moma.org/",
+      "imageUrl": "https://cdn.sanity.io/images/476nwnl9/production/d1f0579dc3787e39c52a9b2fae3d7a4579aad0b2-2000x1125.jpg?auto=format",
+      "whyRecommended": "Day 1: modern art. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: Top of the Rock",
+      "description": "The open-air decks provide clear views of Central Park and the Empire State Building from the center of Midtown. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "Top of the Rock",
+      "startDateTime": "2026-11-06T17:00:00-05:00",
+      "endDateTime": "2026-11-06T18:00:00-05:00",
+      "ticketUrl": "https://www.rockefellercenter.com/attractions/top-of-the-rock-observation-deck/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/30_Rockefeller_Plaza_view_from_Empire_State_Building%2C_around_1_pm.jpg/1920px-30_Rockefeller_Plaza_view_from_Empire_State_Building%2C_around_1_pm.jpg",
+      "whyRecommended": "Day 1: classic skyline photography. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: Walk Central Park",
+      "description": "Choose one section instead of racing through the whole park: the Ramble, Bethesda Terrace and the reservoir make a satisfying first route. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "Walk Central Park",
+      "startDateTime": "2026-11-07T09:00:00-05:00",
+      "endDateTime": "2026-11-07T10:30:00-05:00",
+      "ticketUrl": "https://www.centralparknyc.org/",
+      "imageUrl": "https://d2wsrtli9cxkek.cloudfront.net/media/images/Homepage-Hero-1.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=1485&q=80&w=2475&s=f552cb6f582363143346eaaa30c8f56f",
+      "whyRecommended": "Day 2: a flexible outdoor morning. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: The Metropolitan Museum of Art",
+      "description": "The collection can fill a day, so choose two or three departments and leave time for the building itself. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "The Metropolitan Museum of Art",
+      "startDateTime": "2026-11-07T11:00:00-05:00",
+      "endDateTime": "2026-11-07T14:00:00-05:00",
+      "ticketUrl": "https://www.metmuseum.org/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "whyRecommended": "Day 2: art and a rainy day. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: Walk the High Line",
+      "description": "An elevated route through Chelsea offers art, planting and changing city views, especially early or near sunset. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "Walk the High Line",
+      "startDateTime": "2026-11-07T16:00:00-05:00",
+      "endDateTime": "2026-11-07T17:00:00-05:00",
+      "ticketUrl": "https://www.thehighline.org/",
+      "imageUrl": "https://fhl-website.s3.amazonaws.com/content/uploads/2018/07/24203559/overview_header_iwan_baan.jpg",
+      "whyRecommended": "Day 2: architecture and an easy walk. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: Brooklyn Bridge and Brooklyn Bridge Park",
+      "description": "Walk toward Brooklyn for skyline views, then continue through DUMBO and the waterfront park instead of immediately turning back. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "Brooklyn Bridge and Brooklyn Bridge Park",
+      "startDateTime": "2026-11-08T09:00:00-05:00",
+      "endDateTime": "2026-11-08T11:00:00-05:00",
+      "ticketUrl": "https://www.brooklynbridgepark.org/",
+      "imageUrl": "https://brooklynbridgepark.org/wp-content/uploads/2023/03/Brooklyn-Bridge-Park-Emily-Warren-Roebling-Plaza-CZ5A8659-scaled-1.jpg",
+      "whyRecommended": "Day 3: a classic city walk. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: 9/11 Memorial & Museum",
+      "description": "The memorial and museum require time and emotional space; reserve in advance and avoid overloading the same day. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "9/11 Memorial & Museum",
+      "startDateTime": "2026-11-08T12:00:00-05:00",
+      "endDateTime": "2026-11-08T14:00:00-05:00",
+      "ticketUrl": "https://www.911memorial.org/",
+      "imageUrl": "https://www.911memorial.org/sites/default/files/paragraph/hero-banner/2025-07/Summer%20on%20Plaza.jpg",
+      "whyRecommended": "Day 3: history and reflection. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "event",
+      "name": "Planned visit: Staten Island Ferry",
+      "description": "The free ferry gives broad harbor and Statue of Liberty views without committing to a sightseeing cruise. Suggested personal itinerary stop, not an organizer-announced event or confirmed booking. Check official opening hours and ticket availability before visiting.",
+      "city": "New York",
+      "venueName": "Staten Island Ferry",
+      "startDateTime": "2026-11-08T15:00:00-05:00",
+      "endDateTime": "2026-11-08T16:30:00-05:00",
+      "ticketUrl": "https://www.nyc.gov/html/dot/html/ferrybus/staten-island-ferry.shtml",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Spirit_of_America_-_Staten_Island_Ferry.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "whyRecommended": "Day 3: harbor views on a budget. Allow time for transit; book separately if needed."
+    },
+    {
+      "type": "place",
+      "name": "Tatiana by Kwame Onwuachi",
+      "description": "A celebratory dining room at Lincoln Center where Caribbean, West African and New York influences meet in generous, high-energy dishes.",
+      "city": "New York",
+      "website": "https://www.tatiananyc.com/",
+      "imageUrl": "https://images.getbento.com/accounts/d3c5b78fc5241c068da0bd3c6be5d228/media/images/6399interior-5.jpg?w=1200&fit=crop&auto=compress",
+      "placeType": "restaurant",
+      "whyRecommended": "Lincoln Square option for a major dinner reservation. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Semma",
+      "description": "Regional South Indian cooking with deep spice, seafood and dishes that move well beyond the usual restaurant canon.",
+      "city": "New York",
+      "website": "https://www.semma.nyc/",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/615bedc264a4c3392b97d4d8/0d509d24-3600-4972-8049-e474685e9aed/Semma_Exterior+2_Will+Ellis.jpg",
+      "placeType": "restaurant",
+      "whyRecommended": "West Village option for a destination dinner. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Torrisi",
+      "description": "An exuberant Italian American dining room with polished service and a menu shaped by downtown New York.",
+      "city": "New York",
+      "website": "https://www.torrisinyc.com/",
+      "imageUrl": "https://cdn.sanity.io/images/gb1p0gbj/production/12775c3387eae37fc378eea00ce9ac131792bd2a-4320x2461.png?w=2400&auto=format",
+      "placeType": "restaurant",
+      "whyRecommended": "Nolita option for a lively special occasion. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Don Angie",
+      "description": "Inventive Italian American plates in an intimate room where the lasagna and shareable pastas reward planning ahead.",
+      "city": "New York",
+      "website": "https://www.donangie.com/",
+      "imageUrl": "https://images.getbento.com/accounts/d704d1f12e9025a5303f862eeb87f5c0/media/images/31406DonAngie_AlexStaniloff_111225-306.jpg?w=1200&fit=crop&auto=compress",
+      "placeType": "restaurant",
+      "whyRecommended": "West Village option for date night and sharing. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Via Carota",
+      "description": "A warm neighborhood trattoria known for vegetables, handmade pastas and an atmosphere that works from late lunch through dinner.",
+      "city": "New York",
+      "website": "https://www.viacarota.com/",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/609dae90c469194aa5b1f0a9/4cba43e4-0111-4332-9d8f-e0ac87e56d8d/VC+MENU+10-08-2026_Artboard+1+copy+8.jpg",
+      "placeType": "restaurant",
+      "whyRecommended": "West Village option for an unhurried meal. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Double Chicken Please",
+      "description": "A two-part Lower East Side destination pairing a casual front room with a reservation-driven cocktail bar built around food-inspired drinks.",
+      "city": "New York",
+      "website": "https://doublechickenplease.com/",
+      "imageUrl": "https://doublechickenplease.com/cdn/shop/files/FR_Menu_Landing_Page.jpg?v=1765486189&width=1200",
+      "placeType": "bar",
+      "whyRecommended": "Lower East Side option for inventive cocktails. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Overstory",
+      "description": "A high-floor cocktail bar with sweeping city views, polished service and a room that feels special before the first drink arrives.",
+      "city": "New York",
+      "website": "https://www.overstory-nyc.com/",
+      "imageUrl": "https://images.getbento.com/accounts/7d8edc296a1132884cb60967717c1311/media/images/62243_MG_9987.jpg?fit=max&w=1800&auto=format",
+      "placeType": "bar",
+      "whyRecommended": "Financial District option for views and celebrations. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Attaboy",
+      "description": "A narrow, menu-free cocktail bar where the conversation with the bartender shapes the drink.",
+      "city": "New York",
+      "website": "https://attaboy.us/",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/64833e4a03447509e165a61d/3600955c-c5e3-4094-b97d-0dc6acd110ef/ABLOGO.jpg",
+      "placeType": "bar",
+      "whyRecommended": "Lower East Side option for bespoke cocktails. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Katana Kitten",
+      "description": "Japanese highballs, playful drinks and upbeat hospitality keep this West Village bar energetic without feeling chaotic.",
+      "city": "New York",
+      "website": "https://katanakitten.com/",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6798f7f7e449495b5ec480e2/3ad8804e-2ddf-4922-a024-159cb58fbc7f/KK-Interior-JohnShyloski-20220818-0570-rs.jpg",
+      "placeType": "bar",
+      "whyRecommended": "West Village option for highballs and a fun group. Choose one dinner and one nearby drink per night; reservations are not included."
+    },
+    {
+      "type": "place",
+      "name": "Dante",
+      "description": "A historic Greenwich Village address reimagined around aperitivo, spritzes and polished all-day hospitality.",
+      "city": "New York",
+      "website": "https://www.dante-nyc.com/",
+      "imageUrl": "https://images.getbento.com/accounts/e8eee6aef7c2e8242e267a82a199ac35/media/images/37253OLD_FASHIONED_WHISKEY_COCKTAIL.jpg?w=1200&fit=max&auto=compress",
+      "placeType": "bar",
+      "whyRecommended": "Greenwich Village option for aperitivo and people-watching. Choose one dinner and one nearby drink per night; reservations are not included."
+    }
+  ]
+}

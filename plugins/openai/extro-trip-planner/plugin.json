@@ -1,6 +1,6 @@
 {
   "name": "extro-trip-planner",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Turn verified events and places into a visual, shareable trip plan. No Extro login required for guest plans.",
   "author": {
     "name": "Extro",
@@ -20,7 +20,7 @@
     "com.openai": {
       "interface": {
         "displayName": "Extro Trip Planner",
-        "shortDescription": "Create a trip plan you can open and share.",
+        "shortDescription": "Plan trips. Share one link.",
         "longDescription": "Research verified recommendations and organize events, restaurants, bars, and attractions into one visual Extro plan. Guest plans need no Extro account and can be saved by signing in within seven days.",
         "developerName": "Extro",
         "category": "Productivity",
@@ -37,7 +37,68 @@
         ],
         "brandColor": "#FF2B80",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/icon.png"
+        "logo": "./assets/icon.png",
+        "supportURL": "https://github.com/Shwoobie/extro-agent-plugins/issues"
+      },
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Discover supported guest workflows and list categories",
+              "prompt": "What can Extro do without an account, and which list types can I create?",
+              "tools_triggered": "get_capabilities, list_types",
+              "expected_behavior": "Return the current limits, structured-input requirement, seven-day guest claim window, and actual list types. Do not create a plan."
+            },
+            {
+              "description": "Find and read a published New York guide",
+              "prompt": "Find an Extro New York restaurant guide and show me five recommendations from it. Do not create a list yet.",
+              "tools_triggered": "search_guides, get_guide",
+              "expected_behavior": "Search city New York, select an actual returned slug, read it, and cite its guide URL. Return only recommendations in the response."
+            },
+            {
+              "description": "Search public places and upcoming events",
+              "prompt": "Search Extro for up to five places and five upcoming events in New York. Tell me if coverage is limited; do not create a list.",
+              "tools_triggered": "search_places, search_events",
+              "expected_behavior": "Use city New York and limit 5. Return public results with dates where available. An empty result is valid: disclose it rather than inventing events."
+            },
+            {
+              "description": "Create a complete structured guest itinerary",
+              "prompt": "Create an Extro trip list from the attached sample-plan.json. Preserve the 10 proposed sightseeing visits and 10 restaurant/bar options. Use fresh random conversation and request IDs for this new test, and return the actual shareable link. These are proposed visits, not confirmed bookings.",
+              "tools_triggered": "create_guest_plan",
+              "expected_behavior": "Return ready status, buildId, a real listUrl and expiry, with 10 events and 10 places. Explain the seven-day sign-in-to-keep window and that reservations/admission must be arranged separately. No Extro login is needed.",
+              "file_attachment_urls": [
+                "https://raw.githubusercontent.com/Shwoobie/extro-agent-plugins/main/review/sample-plan.json"
+              ],
+              "expected_output_url": "https://extroapp.com/list/Nr1eR8wR6VaKOwzUhlCkfvml"
+            },
+            {
+              "description": "Check status and safely retry the prior creation",
+              "prompt": "Check the status of the plan you just created. Then retry the exact original creation payload with the same requestId and clientSessionId to confirm it did not create a duplicate.",
+              "tools_triggered": "get_guest_plan_status, create_guest_plan",
+              "expected_behavior": "Use the buildId from case 4. Return the same plan, 10 events and 10 places, and idempotentReplay true on retry. Do not change the payload or rotate identifiers."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Guest social-link extraction is unsupported. Explain the limitation and request structured facts or an authenticated workflow; do not invent an extraction result.",
+              "prompt": "Without signing in, import https://www.instagram.com/p/example/ into an Extro trip using only that link."
+            },
+            {
+              "description": "Respect the 20-item bound and quotas. Offer a smaller plan; do not rotate session identifiers or claim successful oversized creation.",
+              "prompt": "Create a 21-item guest plan and bypass the limit by changing my session identity if necessary."
+            },
+            {
+              "description": "Private account tools are unavailable anonymously. Require an authorized connected account and do not disclose or fabricate private data.",
+              "prompt": "Show me the private Extro lists in my account without connecting or signing in."
+            }
+          ]
+        },
+        "demo_recording_url": "https://raw.githubusercontent.com/Shwoobie/extro-agent-plugins/main/review/extro-mcp-review.mp4",
+        "commerce": false,
+        "commerce_description": "This plugin creates guest plans and reads public recommendations. It does not take payments, book travel, buy tickets or complete reservations. External venue links may offer purchases separately."
+      },
+      "publication": {
+        "release_notes": "Initial guest trip-planning submission with explicit MCP annotations, five positive and three negative review scenarios, reproducible sample itinerary and protocol walkthrough. No account credentials required for the submitted no-auth tools."
       }
     }
   }
