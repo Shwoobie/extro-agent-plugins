@@ -28,7 +28,7 @@
           "Write"
         ],
         "websiteURL": "https://extroapp.com",
-        "privacyPolicyURL": "https://extroapp.com/privacy",
+        "privacyPolicyURL": "https://github.com/Shwoobie/extro-agent-plugins/blob/main/PRIVACY.md",
         "termsOfServiceURL": "https://extroapp.com/terms",
         "defaultPrompt": [
           "Plan a food and art weekend in New York.",
