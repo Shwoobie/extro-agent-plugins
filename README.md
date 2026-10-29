@@ -48,3 +48,9 @@ Report integration problems through this repository's Issues tab. Do not include
 ## License
 
 MIT covers the integration code and instructions. Extro branding remains Extro's; this license does not grant trademark rights or rights to the hosted service or application backend.
+
+## Data handling
+
+The Extro MCP receives structured recommendations and plan details supplied by the agent. It stores the plan and recommendations on Extro's hosted backend. Unclaimed guest plans stop resolving after seven days; that is an access expiration, not a promise to delete all underlying records. Recommendation records and claimed plans can be retained longer than 30 days. Avoid sensitive personal data; use random session identifiers. The returned claim link should be shared only with the intended traveler.
+
+When researching, the skill can use the host client's web search and browsing tools. The configured search provider and the public websites visited receive those search queries or requests under the host client's policies. No separate search credential is bundled. Only verified recommendation and plan data is sent to Extro through the declared connector. This plugin does not book travel or purchase tickets.
